@@ -1,0 +1,9 @@
+<?php
+
+require "../vendor/autoload.php";
+
+use Mk2\Libraries\Generator;
+
+define("MK2_ROOT",dirname(__DIR__));
+
+new Generator();

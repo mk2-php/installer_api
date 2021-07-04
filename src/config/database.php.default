@@ -1,0 +1,60 @@
+<?php
+
+/**
+ * ===================================================
+ * 
+ * PHP Framework "Mk2"
+ *
+ * config/database
+ * 
+ * URL : https://www.mk2-php.com/
+ * 
+ * Copylight : Nakajima-Satoru 2021.
+ *           : Sakaguchiya Co. Ltd. (https://www.teastalk.jp/)
+ * 
+ * ===================================================
+ */
+
+namespace app\Config;
+
+use PDO;
+
+return [
+
+	/**
+	 * deafult database connection
+	 */
+	"default"=>[
+		'orm'=>'mk2orm',
+		"driver"=>"mysql",
+		"host"=>"localhost",
+		"port"=>3306,
+		"username"=>"root",
+		"password"=>"",
+		"database"=>"mk2",
+		'charset'=>'utf8mb4',
+		'collation'=>'utf8mb4_general_ci',
+		"prefix"=>"",
+		"option"=>[
+			PDO::ATTR_ERRMODE=>PDO::ERRMODE_EXCEPTION,
+			PDO::ATTR_PERSISTENT=>true,
+		],
+	],
+
+	/**
+	 * sub database connection (type2)
+	 */
+	"type2"=>[
+		'orm'=>'mk2orm',
+		"driver"=>"mysql",
+		"host"=>"localhost",
+		"port"=>3306,
+		"username"=>"root",
+		"password"=>"",
+		"database"=>"mk2",
+		'charset'=>'utf8mb4',
+		'collation'=>'utf8mb4_general_ci',
+		"prefix"=>"",
+	],
+
+];

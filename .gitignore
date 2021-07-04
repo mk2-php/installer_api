@@ -1,0 +1,4 @@
+/vendor
+/src/temporaries
+/src/config/database.php
+/composer.lock

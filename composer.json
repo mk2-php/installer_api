@@ -1,0 +1,30 @@
+{
+	"name":"mk2/installer_api",
+	"description": "Next PHP Framework 'mark2' install packeage.(API Version)",
+	"type": "library",
+	"license": "MIT",
+	"homepage":"https://www.mk2-php.com/",
+	"authors": [{
+		"name": "Nakajima Satoru"
+	}],
+	"keywords": ["PHP","php","Framework","framework","mark2","api"],
+	"require": {
+		"php": ">=5.4.0",
+		"mk2/libraries":"dev-master",
+		"mk2/orm":"dev-master",
+		"mk2/validator":"dev-master",
+		"mk2/backpack_log":"dev-master",
+		"mk2/backpack_encrypt":"dev-master",
+		"mk2/backpack_encryptrsa":"dev-master",
+		"mk2/backpack_cache":"dev-master",
+		"mk2/backpack_session":"dev-master",
+		"mk2/backpack_cookie":"dev-master",
+		"mk2/backpack_token":"dev-master",
+		"mk2/backpack_auth":"dev-master"
+	},
+	"autoload": {
+		"psr-4": {
+			"mk2\\installer_api\\":"/"
+		}
+	}
+}
