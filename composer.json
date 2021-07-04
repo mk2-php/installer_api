@@ -8,19 +8,20 @@
 		"name": "Nakajima Satoru"
 	}],
 	"keywords": ["PHP","php","Framework","framework","mark2","api"],
+	"minimum-stability": "dev",
 	"require": {
 		"php": ">=5.4.0",
-		"mk2/libraries":"dev-master",
-		"mk2/orm":"dev-master",
-		"mk2/validator":"dev-master",
-		"mk2/backpack_log":"dev-master",
-		"mk2/backpack_encrypt":"dev-master",
-		"mk2/backpack_encryptrsa":"dev-master",
-		"mk2/backpack_cache":"dev-master",
-		"mk2/backpack_session":"dev-master",
-		"mk2/backpack_cookie":"dev-master",
-		"mk2/backpack_token":"dev-master",
-		"mk2/backpack_auth":"dev-master"
+		"mk2/libraries":">=1.0.0",
+		"mk2/orm":">=1.0.0",
+		"mk2/validator":">=1.0.0",
+		"mk2/backpack_log":">=1.0.0",
+		"mk2/backpack_encrypt":">=1.0.0",
+		"mk2/backpack_encryptrsa":">=1.0.0",
+		"mk2/backpack_cache":">=1.0.0",
+		"mk2/backpack_session":">=1.0.0",
+		"mk2/backpack_cookie":">=1.0.0",
+		"mk2/backpack_token":">=1.0.0",
+		"mk2/backpack_auth":">=1.0.0"
 	},
 	"autoload": {
 		"psr-4": {
